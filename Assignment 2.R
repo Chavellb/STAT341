@@ -1,15 +1,6 @@
 #Chavell Brown, August 25, 2023 
 
- if(!require(devtools)) install.packages("devtools")
-Loading required package: devtools
-Loading required package: usethis
-> devtools::install_github("kassambara/ggpubr")
-Skipping install of 'ggpubr' from a github remote, the SHA1 (6aeb4f70) has not changed since last install.
-  Use `force = TRUE` to force installation
-> library("ggpubr")
-Loading required package: ggplot2
-> my_data <- mtcars 
-> head(my_data, 6)
+
                    mpg cyl disp  hp drat    wt  qsec vs am gear carb
 Mazda RX4         21.0   6  160 110 3.90 2.620 16.46  0  1    4    4
 Mazda RX4 Wag     21.0   6  160 110 3.90 2.875 17.02  0  1    4    4
